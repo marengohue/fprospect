@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Data/Index.fs" />
     <Compile Include="Contract.fs" />
     <Compile Include="Index.fs" />
     <Compile Include="Program.fs" />
