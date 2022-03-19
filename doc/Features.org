@@ -1,0 +1,33 @@
+#+TODO: TODO IN-PROGRESS DONE CANCELLED
+
+* FProspect Features and status
+  List of features MVP features for initial version of *FProspect*
+  
+* TODO Strongly typed documents
+  1. It should be possible to configure a well known schema for a search document
+  2. Documents should support all basic data types such as:
+     + Strings and text
+     + Numerical data, both integer and floating point
+     + Sub-documents
+     + Arrays of the abovementioned types
+  3. Simple validation rules could be applied to the schema to ensure data integrity       
+     
+* TODO Index management
+  1. It should be possible to create strongly typed indexes with well known schema
+  2. Indexes should be isolated from each other
+  3. It should be possible to populate the index with new data points on demand and
+     remove items as needed
+
+* TODO Data sources
+  1. It should be possible to maintain various data sources to feed data into the indexes
+  2. By default it should be possible to index SQL databases
+  3. Data source system should be extensible and allow for connection to other non-standard data sources
+  4. It should be possible to setup indexing schedules for data source
+  5. It should be possible to run indexing of the data source on demand
+
+* TODO Querying
+  1. It should be possible to run string-based Lucene queries to retrieve the data from the indexes
+  2. It should be possible to obtain refinements for search results
+
+
+     

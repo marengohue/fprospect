@@ -1,0 +1,8 @@
+* FProspect overview and purpose
+  The general purpose of FProspect is to have a simple to deploy low configuration
+  search engine that could be used as a locally-hosted search engine implementation.
+
+  Ideally, it's API should mimic the one of Azure Search to allow for limited development use.
+  The goal is to achieve a system that could be ran inside a container on a local development machine
+  to remove the external search engine dependency when developing.
+  
