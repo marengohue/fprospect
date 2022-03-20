@@ -1,15 +1,18 @@
-module Data.Index
+module FProspect.Data.Index
 
 type Index =
   { Name : string }
 
 type FieldType =
-| Text
+| String
+| Boolean
 | Integer
-| Float
+| Long
+| Double
 | Collection of FieldType
 
 type IndexField =
   { Name : string
     Type : FieldType }
     
+

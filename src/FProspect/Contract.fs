@@ -1,4 +1,4 @@
-module Contract
+module FProspect.Contract
 
 open System.Runtime.Serialization
 

@@ -1,6 +1,4 @@
-module Index
-
-open System.Collections.Generic
+module FProspect.Index
 
 open Lucene.Net.Analysis.Standard
 open Lucene.Net.Index

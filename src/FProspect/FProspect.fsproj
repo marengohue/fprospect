@@ -6,7 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Utils/Regex.fs" />
+    
+    <Compile Include="Data/Errors.fs" />
     <Compile Include="Data/Index.fs" />
+    <Compile Include="Validators/Index.fs" />
+    <Compile Include="ViewModels/Index.fs" />
+
     <Compile Include="Contract.fs" />
     <Compile Include="Index.fs" />
     <Compile Include="Program.fs" />
@@ -15,7 +21,7 @@
   <ItemGroup>
     <PackageReference Include="Lucene.Net" Version="4.8.0-beta00016" />
     <PackageReference Include="Lucene.Net.Analysis.Common" Version="4.8.0-beta00016" />
-    <PackageReference Include="suave" Version="2.6.2" />
+    <PackageReference Include="Suave" Version="2.6.2" />
   </ItemGroup>
 
 </Project>

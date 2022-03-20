@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FProspect", "FProspect\FProspect.fsproj", "{739AE42F-B35A-4943-9825-B2601EB29F15}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FProspect.Tests", "FProspect.Tests\FProspect.Tests.fsproj", "{BCBB3EE2-43A8-480F-89A6-3F2D7E1A0685}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{739AE42F-B35A-4943-9825-B2601EB29F15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{739AE42F-B35A-4943-9825-B2601EB29F15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{739AE42F-B35A-4943-9825-B2601EB29F15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{739AE42F-B35A-4943-9825-B2601EB29F15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCBB3EE2-43A8-480F-89A6-3F2D7E1A0685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCBB3EE2-43A8-480F-89A6-3F2D7E1A0685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCBB3EE2-43A8-480F-89A6-3F2D7E1A0685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCBB3EE2-43A8-480F-89A6-3F2D7E1A0685}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
