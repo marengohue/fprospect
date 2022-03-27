@@ -7,11 +7,14 @@
 
   <ItemGroup>
     <Compile Include="Utils/Regex.fs" />
-    
+    <Compile Include="Utils/Functional.fs" />
+        
     <Compile Include="Data/Errors.fs" />
     <Compile Include="Data/Index.fs" />
-    <Compile Include="Validators/Index.fs" />
     <Compile Include="ViewModels/Index.fs" />
+
+    <Compile Include="Validators/Index.fs" />
+
 
     <Compile Include="Contract.fs" />
     <Compile Include="Index.fs" />

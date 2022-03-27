@@ -12,6 +12,10 @@ type TypeError =
 | InvalidCollectionType
 | UnknownTypeName
 
-type Error =
-| InvalidObjectName of ObjectNameError
+type FieldError =
+| InvalidFieldName of ObjectNameError
 | InvalidType of TypeError
+
+type IndexError =
+| InvalidIndexName of ObjectNameError
+| InvalidField of (int*FieldError)
