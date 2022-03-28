@@ -14,8 +14,6 @@
     <Compile Include="ViewModels/Index.fs" />
 
     <Compile Include="Validators/Index.fs" />
-
-
     <Compile Include="Contract.fs" />
     <Compile Include="Index.fs" />
     <Compile Include="Program.fs" />
